@@ -1,9 +1,12 @@
 package com.java.class01;
 
 public class FirstClass {
-    public static void main(String arg[])
+    public static void main(String[] args)
     {
-        System.out.println("This is my first program!");
-        System.out.println("Changed today April 24");
+        double a = 0.1;
+        int b = 3;
+        //b, exp = 10;
+        //a = b = 5;
+        System.out.println(a*b);
     }
 }
